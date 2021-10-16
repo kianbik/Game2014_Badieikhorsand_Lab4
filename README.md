@@ -1,1 +1,3 @@
-Game2014_Badieikhorsand_Lab4
+# GAME2014-F2021-Lab3b
+
+This is a Demo app for GAME2014 - Mobile Application Development I - at George Brown College in the Fall 2021 semester.
