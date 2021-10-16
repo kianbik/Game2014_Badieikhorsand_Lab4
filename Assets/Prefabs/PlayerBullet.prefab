@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5236589074466653487}
   - component: {fileID: 5236589074466653484}
   m_Layer: 0
-  m_Name: EnemyBullet
+  m_Name: PlayerBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1391fb2fe9fad4b4d8fd6bbf35b6863c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -97,12 +97,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28952a968bbeefa46a4fe89309815a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
   speed: 0.1
   bulletBounds:
     min: 5.5
     max: -5.5
-  direction: 2
+  direction: 0
 --- !u!61 &5236589074466653484
 BoxCollider2D:
   m_ObjectHideFlags: 0
